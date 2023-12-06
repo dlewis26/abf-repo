@@ -1,8 +1,7 @@
 {
-  "name": "abf-repo",
+  "name": "nachi",
   "version": "1.0.0",
-  "description": "Americus Business - Mobile-Friendly Deployment with Node.js",
-  "main": "script.js",
+  "main": "sever.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "description": "americus business final",
+  "repository": {
+    "type": "git",
+    "url": "abf-repo"
   }
 }

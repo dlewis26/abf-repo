@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Americus Business Final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Links (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-row w3-padding w3-black">
+                <div class="w3-col s3">
+                    <a href="#" class="w3-button w3-block w3-black">HOME</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+                </div>
+            </div>
+        </div>
+        <!-- Header with image -->
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+            <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+                <span class="w3-tag">Open Wed-Sat 11am - 8pm Sun 12 - 7pm</span>
+            </div>
+            <div class="w3-display-bottomright w3-center w3-padding-large">
+                <span class="w3-text-white">224 N Jackson St, Americus, GA, United States, Georgia</span>
+            </div>
+        </header>
+  
+  <!-- Add a background color and large text to the whole page -->
+  <div class="w3-sand w3-grayscale w3-large">
+  
+  <!-- About Container -->
+  <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE FISH HOUSE</span></h5>
+      <p>The Fish House has been serving the Americaus community since 1939!  We offer a variety of seafood including but not limited to fresh fish, shrimp, crab legs and oysters. We also serve wings and burgers. And don't be afraid to add bottled beer or wine to your order to enjoy with your meal!</p>
+      <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>"I had the mullet and it was DELICIOUS, FRESH, HOT, and SEASONED WELL. Just the way I like it. The food is a 5/5"</i></p>
+        <p>Google Reviewer: Shanda Harris</p>
+      </div>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>"Long story short, we got a low country boil and it was perfect. Great food, great service. 10/10." </i></p>
+        <p>Google Reviewer: Anthony Austin</p>
+      </div>
+      <img src="boil.png" style="width:100%;max-width:5000px" class="w3-margin-top">
+      <p><strong>Opening hours:</strong> Wed - Sat 11am - 8am, Sun 12 - 7pm</p>
+      <p><strong>Address:</strong> 224 N Jackson St, Americus, GA, United States, Georgia</p>
+    </div>
+  </div>
+  
+  <!-- Menu Container -->
+<div class="w3-container" id="menu">
+    <div class="w3-content" style="max-width:700px">
+   
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    
+      <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Apps');" id="myLink">
+          <div class="w3-col s6 tablink">Apps</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Salads');" id="myLink">
+          <div class="w3-col s6 tablink">Salads</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Oysters');">
+          <div class="w3-col s6 tablink">Oysters</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Chicken');">
+          <div class="w3-col s6 tablink">Chicken</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Chef');">
+          <div class="w3-col s6 tablink">Chef Entrees</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Sandwich');">
+          <div class="w3-col s6 tablink">Sandwich Baskets</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Combinations');">
+          <div class="w3-col s6 tablink">Combinations</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Fresh');">
+          <div class="w3-col s6 tablink">Fresh off the Dock</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Sides');">
+          <div class="w3-col s6 tablink">Sides</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Lunch');">
+          <div class="w3-col s6 tablink">Lunch Specials</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Desserts');">
+          <div class="w3-col s6 tablink">Desserts</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Beer');">
+          <div class="w3-col s6 tablink">Beer</div>
+           <a href="javascript:void(0)" onclick="openMenu(event, 'Wine');">
+          <div class="w3-col s6 tablink">Wine</div>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+          <div class="w3-col s6 tablink">Soft Drinks</div>
+        </a>
+      </div>
+  
+      <div id="Apps" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Fried Pickles 5.99</h5>
+         <p class="w3-text-grey">Fried Mushroom 6.99</p>
+        <br>
+        
+        <h5>Fried Corn Nuggets 6.99</h5>
+         <p class="w3-text-grey">Grilled Shrimp Nachos 10.99</p>
+        <br>
+      
+        <h5>Chili Cheese Nachos 8.99</h5>
+        <p class="w3-text-grey">Mini Chicken Burritos (6) 5.99</p><br>
+      
+        <h5>Jalapeno Poppers (8) 7.99</h5>
+        <p class="w3-text-grey">Cheese Sticks (8) 7.99</p><br>
+      
+        <h5>Buffalo Shrimp (8) 8.99</h5>
+        <p class="w3-text-grey">Mini Corn Dogs (9) 6.99</p><br>
+      
+        <h5>Grilled Chicken Quesadilla 6.99</h5>
+        <p class="w3-text-grey">Cheese Fries, Tots, or Chips 5.99</p><br>
+        
+        <h5>Chili Cheese Fries, Tots, or Chips 7.99</h5>
+        <p class="w3-text-grey"> Bacon Cheese Fries, Tots, or Chips 7.99</p><br>
+        <h5>Fried Mac and Cheese Balls 6.99</h5>
+        <p class="w3-text-grey">Soup of the Day (when availabe) 4.99</p>
+      </div>
+      
+      <div id="Salads" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Grilled Chicken Salad 7.99</h5>
+        <br>
+      
+        
+        <p class="w3-text-grey">Fried Chicken Salad 7.99</p><br>
+      
+        <h5>Grilled Shrimp Salad 8.99</h5>
+        <br>
+      
+        
+        <p class="w3-text-grey">Grilled Salmon Salad 10.99</p>
+      </div>  
+      
+      <div id="Oysters" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Raw</h5>
+          <p class="w3-text-grey">7.49 (1/2 Dozen)</p>
+          <p class="w3-text-grey">12.49 (Dozen)</p><br>
+      
+        <h5>Broiled with Parmesan or Cheddar Cheese</h5>
+        <p class="w3-text-grey">8.49 (1/2 dozen)</p>
+        <p class="w3-text-grey">14.49 (Dozen)</p>
+        <p class="w3-text-grey">Add bacon for a 1.00 extra</p>
+        <p class="w3-text-grey">Add jalapenos for .50 extra</p>
+      </div>
+      
+      <div id="Chicken" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Chicken Tenders</h5>
+        <p class="w3-text-grey">Basket: Three chicken tenders and a side 7.99</p>
+        <p class="w3-text-grey">Meal: Five chicken tenders and two sides 11.99</p>
+        <p class="w3-text-grey">Get them tossed in sauce for 1.00 extra</p>
+        <br>
+      
+         <h5>Wings (Boneless or Bone-in) 7.99</h5>
+        <p class="w3-text-grey">Toss'em in mild, hot, lemon pepper, sweet and sour, honey pineapple teriyaki, or honey BBQ</p>
+      </div> 
+      
+      <div id="Chef" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Low Country Boil 13.99</h5>
+         <p class="w3-text-grey">With shrimp, crab legs,sausage, potatoes, and corn </p>
+        <br>
+        
+        <h5>Boiled Peel and Eat Shrimp (with butter)</h5>
+         <p class="w3-text-grey">1/2 Pound 11.99</p>
+         <p class="w3-text-grey">1 Pound 16.49</p>
+         <p class="w3-text-grey">Add seasoned butter sauce for 1.00 extra</p>
+        <br>
+      
+        <h5>Snow Crab Legs</h5>
+        <p class="w3-text-grey">1 Pound (with butter) 14.99</p>
+        <p class="w3-text-grey">1 Pound (with seasoned butter sauce) 15.99</p><br>
+        
+         <h5>Steamer Pot</h5>
+        <p class="w3-text-grey">With two pounds of snow crab legs and one pound of shrimp 39.99</p><br>
+        
+         <h5>Spicy Cajun Pasta</h5>
+        <p class="w3-text-grey">With the choice of:</p>
+        <p class="w3-text-grey">Chicken 11.99</p>
+        <p class="w3-text-grey">Shrimp 12.99</p>
+        <p class="w3-text-grey">Scallops 13.99</p><br>
+        
+        <h5>Grilled Flatbread</h5>
+        <p class="w3-text-grey">Chicken 8.99</p>
+        <p class="w3-text-grey">Shrimp 9.99</p><br>
+        
+        <h5>Fish tacos</h5>
+        <p class="w3-text-grey">Three delicious grilled tilapia tacos topped with cheddar cheese, lettuce and tomatoes 10.99</p><br>
+        
+        <h5>Moharra Frita</h5>
+        <p class="w3-text-grey">A fried tilapia fish with head. Served with onions, tomatoes and jalapenos 8.99</p><br>
+        </div>
+        
+            <div id="Sandwich" class="w3-container menu w3-padding-48 w3-card">
+            <p class="w3-text-grey">*Served with one side.</p><br>
+        <h5>Philly or Chicken Cheesesteak</h5>
+          <p class="w3-text-grey">With provolone and onions 8.99</p>
+          <p class="w3-text-grey">Add mushrooms or jalapenos for .50 extra</p><br>
+          
+          <h5>Po Boy</h5>
+          <p class="w3-text-grey">Catfish 9.99</p>
+          <p class="w3-text-grey">Oyster 9.99</p>
+          <p class="w3-text-grey">Shrimp 9.99</p><br>
+      
+        <h5>Grilled Nathan's All beef Dog ~ The Works</h5>
+        <p class="w3-text-grey">Topped with chili, slaw and cheese 5.99</p><br>
+        <h5>Grilled Nathan's All beef Dog 4.99</h5>
+        <p class="w3-text-grey">Add slaw, chili, or cheese for .50 extra</p><br>
+        
+        <h5>Half Pound Burger 8.99</h5>
+        <p class="w3-text-grey">Add for .50 each:</p>
+        <p class="w3-text-grey">Lettuce and tomatoes, bacon, cheddar, american, swiss, pepper jack, or provolone</p><br>
+        
+        <h5>Grilled Chicken 7.99</h5>
+        <p class="w3-text-grey">Add for .50 each:</p>
+        <p class="w3-text-grey">Lettuce and tomatoes, bacon, cheddar, american, swiss, pepper jack, or provolone</p><br>
+        
+        <h5>Texas Grilled Cheese Sandwich 5.99</h5>
+        <p class="w3-text-grey">Choice of cheddar, american, swiss, pepper jack, or provolone</p><br>
+        
+        <h5>Texas BLT 6.99</h5>
+        <p class="w3-text-grey">Served on texas bread with choice of toasted or not toasted. Filled with bacon, lettuce and tomatoes.</p>
+        <p class="w3-text-grey">Add cheddar, american, swiss, pepper jack, or provolone for .50 extra</p><br>
+        <h5>Turkey Burger 7.99</h5>
+        <p class="w3-text-grey">Add lettuce and tomatoes for .50 extra</p><br>
+        
+        <h5>Big Fish House Sanwich 8.99</h5>
+        <p class="w3-text-grey">Grilled and topped with bacon, cheese, slaw, and french fries</p>
+      </div>
+      
+      <div id="Combinations" class="w3-container menu w3-padding-48 w3-card">
+            <p class="w3-text-grey">*Served with two sides, three hushpuppies or texas toast.</p><br>
+            
+            
+        <h5>Battered Cod Fillets 10.99 </h5>
+        <p class="w3-text-grey">Fish and Chips</p>
+          <br>
+          
+          <h5>Seafood Platter 18.99 </h5>
+        <p class="w3-text-grey">One fish, six shrimp, six oysters, one deviled crab</p>
+          <br>
+          
+          <h5>Super Seafood Platter 22.99 </h5>
+        <p class="w3-text-grey">One fish, six shrimp, six oysters, six scallops, one deviled crab</p>
+          <br>
+          
+          <h5>One Fish and Six Shrimp 10.99 </h5><br>
+          
+          <h5>Six Shrimp, Six Oysters, Six Scallops 17.99 </h5><br>
+          
+          <h5>Catfish fillet and Six Shrimp 12.99 </h5>
+          <p class="w3-text-grey">Fried or Grilled</p><br>
+          
+          <h5>Shrimp Trio 17.99 </h5>
+          <p class="w3-text-grey">6 grilled, 6 fried, 6 coconut</p>
+          </div>
+          
+          <div id="Fresh" class="w3-container menu w3-padding-48 w3-card">
+            <p class="w3-text-grey">*Served with two sides, three hushpuppies or texas toast.</p><br>
+            
+        <h5>Tilapia Fillet </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">(1) 7.99</p>
+        <p class="w3-text-grey">(2) 11.49</p>
+        <p class="w3-text-grey">(3) 14.99</p><br>
+        
+        <h5>Mullet </h5>
+        <p class="w3-text-grey">(1) 6.49</p>
+        <p class="w3-text-grey">(2) 8.899</p>
+        <p class="w3-text-grey">(3) 11.49</p><br>
+        
+        <h5>Catfish </h5>
+        <p class="w3-text-grey">(1) 6.99</p>
+        <p class="w3-text-grey">(2) 10.99</p>
+        <p class="w3-text-grey">(3) 14.99</p><br>
+        
+        <h5>Catfish Fillet </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">(1) 8.99</p>
+        <p class="w3-text-grey">(2) 14.99</p>
+        <p class="w3-text-grey">(3) 19.99</p><br>
+        
+        <h5>Tilapia Fillet </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">(1) 8.99</p>
+        <p class="w3-text-grey">(2) 12.99</p>
+        <p class="w3-text-grey">(3) 16.99</p><br>
+        
+        <h5>Flouder Fillet </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">(1) 10.99</p>
+        <p class="w3-text-grey">(2) 17.99</p>
+        <p class="w3-text-grey">(3) 24.99</p><br>
+        
+        <h5>Shrimp </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">(6) 9.99</p>
+        <p class="w3-text-grey">(9) 12.99</p>
+        <p class="w3-text-grey">(12) 15.99</p><br>
+        
+        <h5>Catfish </h5>
+        <p class="w3-text-grey">(6) 11.99</p>
+        <p class="w3-text-grey">(9) 16.49</p>
+        <p class="w3-text-grey">(12) 19.99</p><br>
+        
+        <h5>Salmon </h5>
+        <p class="w3-text-grey">Served grilled 13.99</p><br>
+        
+        <h5>Scallops </h5>
+        <p class="w3-text-grey">Served fried or grilled 15.99</p><br>
+        
+        <h5>Sutchi or Swai Nuggets </h5>
+        <p class="w3-text-grey">Served fried or grilled 7.99</p><br>
+        
+        <h5>Frog Legs </h5>
+        <p class="w3-text-grey">For three 12.99</p><br>
+        
+        <h5>Deviled Crab </h5>
+        <p class="w3-text-grey">For five 12.99</p><br>
+        
+        <h5>Fried Coconut Shrimp </h5>
+        <p class="w3-text-grey">For eight 15.99</p><br>
+        
+        <h5>Catfish Nuggets 8.99 </h5><br>
+        
+        <h5>Gator Nuggets </h5>
+        <p class="w3-text-grey">Served fried or grilled</p>
+        <p class="w3-text-grey">1/2 pound 18.99</p>
+        <p class="w3-text-grey">One pound 26.99</p><br>
+          </div>
+          
+          <div id="Sides" class="w3-container menu w3-padding-48 w3-card">
+        <h5>.69</h5>
+          <p class="w3-text-grey">~Texas Toast</p><br>
+          
+        <h5>.99</h5>
+          <p class="w3-text-grey">~Whole Jalapeno Peppers (3)</p><br>
+          <h5>1.69</h5>
+          <p class="w3-text-grey">~Grits</p><br>
+          
+          <h5>1.89</h5>
+          <p class="w3-text-grey">~French Fries</p>
+          <p class="w3-text-grey">~Green Beans</p>
+          <p class="w3-text-grey">~Collard Greens</p>
+          <p class="w3-text-grey">~Red Potatotes</p>
+          <p class="w3-text-grey">~Jalapeno Slaw</p>
+          <p class="w3-text-grey">~Tater Tots</p>
+          <p class="w3-text-grey">~Slaw</p>
+          <p class="w3-text-grey">~Hushpuppies (5)</p>
+          <p class="w3-text-grey">~Breaded Okra</p>
+          <p class="w3-text-grey">~Field Peas</p>
+          <p class="w3-text-grey">~Cheese Grits</p>
+          <p class="w3-text-grey">~Corn on the Cob</p><br>
+          
+          <h5>2.49</h5>
+          <p class="w3-text-grey">~Onion Rings</p>
+          <p class="w3-text-grey">~Fresh Fried Potato Chips</p>
+          <p class="w3-text-grey">~Sweet Potato Fries</p><br>
+          
+          <h5>2.69</h5>
+          <p class="w3-text-grey">~Side Salad</p><br>
+      </div>
+      
+      <div id="Lunch" class="w3-container menu w3-padding-48 w3-card">
+        <h5>$9.99 (tax included)</h5>
+          <p class="w3-text-grey">Wednesday through Sunday until 3:00 PM. Lunch Special include two side items and a soft drink or tea.</p><br>
+          <p class="w3-text-grey">~10 Wing</p>
+          <p class="w3-text-grey">~Two Whole Fried Catfish</p>
+          <p class="w3-text-grey">~Two Piece Mullet</p>
+          <p class="w3-text-grey">~Philly Cheesesteak Sandwich</p>
+          <p class="w3-text-grey">~Half Pound Homemade Hamburger (add cheese .50)</p>
+          <p class="w3-text-grey">~Eight Florida Gulf Shrimp (Fried or Grilled)</p>
+          <p class="w3-text-grey">~Two Nathan's All Beef Grilled Hot Dogs</p>
+          <p class="w3-text-grey">~Two Tilapia Fillets (Fried or Grilled)</p>
+          <p class="w3-text-grey">~One Catfish Fillet (Fried or Grilled)</p>
+          <p class="w3-text-grey">~Five Fresh Chicken Tenders (Fried or Grilled)</p>
+          <p class="w3-text-grey">~Catfish or Sutchi/Swai Nuggets</p><br>
+          
+          <h5>Sides</h5>
+          <p class="w3-text-grey">French Fries/Home Fries</p>
+          <p class="w3-text-grey">Tater Tors</p>
+          <p class="w3-text-grey">Field Peas</p>
+          <p class="w3-text-grey">Collard Greens</p>
+          <p class="w3-text-grey">Green Beans</p>
+          <p class="w3-text-grey">Hush Puppies</p>
+          <p class="w3-text-grey">Red Potatoes</p>
+          <p class="w3-text-grey">Corn on the Cob</p>
+          <p class="w3-text-grey">SLaw/Jalapeno Slaw</p>
+          <p class="w3-text-grey">Grites/Cheese Grits</p>
+          <p class="w3-text-grey">Breaded Okra</p>
+          <p class="w3-text-grey">Jalapeno Peppers</p><br>
+      </div>
+        
+            <div id="Desserts" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Freshly Baked</h5>
+          <p class="w3-text-grey">Choose one delicious slice of pie or cake 3.99</p>
+      </div>
+      
+       <div id="Beer" class="w3-container menu w3-padding-48 w3-card">
+        <h5>Bottled Beers</h5>
+          <p class="w3-text-grey">Bottle 2.00</p>
+          <p class="w3-text-grey">~Miller High Life</p>
+          <p class="w3-text-grey">~Pabst Blue Ribbon</p>
+          <p class="w3-text-grey">~Natural Light</p>
+          <p class="w3-text-grey">~Rolling Rock</p>
+          <p class="w3-text-grey">~Mickey's</p><br>
+          <p class="w3-text-grey">Bottle 2.75/Bucket (6) 13.75</p>
+          <p class="w3-text-grey">~Budweiser</p>
+          <p class="w3-text-grey">~Bud Light</p>
+          <p class="w3-text-grey">~Miller Lite</p>
+          <p class="w3-text-grey">~Coors</p><br>
+          <p class="w3-text-grey">Can 3.25/Bucket (6) 16.75</p>
+          <p class="w3-text-grey">~Bud Light Lime-A-Rita</p>
+          <p class="w3-text-grey">~Bud Light Straw-Ber-Rita</p>
+          <p class="w3-text-grey">~Bud Light Mango-O-Rita</p>
+          <p class="w3-text-grey">~Bud lIght Raz-Ber-Rita</p><br>
+          <p class="w3-text-grey">Bottle 3.50/Bucket (6) 17.50</p>
+          <p class="w3-text-grey">~Blye Moon</p>
+          <p class="w3-text-grey">~Redd's Apple Ale</p>
+          <p class="w3-text-grey">~Michelob Ultra</p>
+          <p class="w3-text-grey">~Sweetwater Blue</p><br>
+          <p class="w3-text-grey">Bottle 3.75/Bucket (6) 18.75</p>
+          <p class="w3-text-grey">~Johnny Appleseed</p>
+          <p class="w3-text-grey">~Corona</p>
+          <p class="w3-text-grey">~Corona Light</p>
+          <p class="w3-text-grey">~Heineken</p>
+          <p class="w3-text-grey">~Heineken Light</p><br>
+          
+        <h5>Draft Beers</h5>
+          <p class="w3-text-grey">16oz 2.50/34oz 4.25/Pitcher 7.50/Tower 14.99</p>
+          <p class="w3-text-grey">~Yuengling</p>
+          <p class="w3-text-grey">16oz 2.75/34oz 4.50/Pitcher 8.00/Tower 15.99</p>
+          <p class="w3-text-grey">~Bud Light</p>
+          <p class="w3-text-grey">16oz 3.00/34oz 4.75/Pitcher 8.50/Tower 16.99</p>
+          <p class="w3-text-grey">~Michelob Ultra</p>
+          <p class="w3-text-grey">~Shock Top</p><br>  
+      </div> 
+      
+        <div id="Wine" class="w3-container menu w3-padding-48 w3-card">
+     
+        <h5> Sutter Home Bottle 4.00</h5>
+          <p class="w3-text-grey">~White Zinfandel</p>
+          <p class="w3-text-grey">~Moscato</p>
+          <p class="w3-text-grey">~Pink Moscato</p>
+          <p class="w3-text-grey">~Pinot Grigio</p>
+          <p class="w3-text-grey">~Pinot Noirt</p>
+          <p class="w3-text-grey">~Merlot</p>
+          <p class="w3-text-grey">~Chardonnay</p>
+          <p class="w3-text-grey">~Mimosa</p><br>
+          
+          <h5>J. Roget Bottle 4.00</h5>
+          <p class="w3-text-grey">~Sparkling Brut Champagne</p>
+          <p class="w3-text-grey">~Asti Spumante</p>
+      </div>
+      
+      <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+        <h5>All soft drinks 2.29</h5>
+          <p class="w3-text-grey">Coke</p>
+          <p class="w3-text-grey">Diet Coke</p>
+          <p class="w3-text-grey">Cherry Coke</p>
+          <p class="w3-text-grey">Sprite</p>
+          <p class="w3-text-grey">Hi-C Pink Lemonade</p>
+          <p class="w3-text-grey">Fruit Punch</p>
+          <p class="w3-text-grey">Sweet Tea</p>
+          <p class="w3-text-grey">Unsweet Tea</p>
+          
+      </div>  
+      <img src="beer.png" style="width:100%;max-width:1000px;margin-top:32px;">
+    </div>
+  </div>
+  
+  <!-- Contact/Area Container -->
+  <div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+      <p>Check out our Facebook! From there, you can find fun events we host or take part in, deals we may have, and more!</p>
+      <p><a href="https://www.facebook.com/@The-Fish-House-Seafood-Center-100042181488949/"><img src="facebook.png" style="width:50px;height:50px;"></a></p>
+      
+      
+    </div>
+  </div>
+  
+  <!-- End page content -->
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+    </body>
+
+</html>
